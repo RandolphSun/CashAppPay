@@ -5,7 +5,7 @@
 |:-----|-----------|
 |Email| *string* <br/> max length = 128 <br/> address owner's full name.<br/>`"Randolph@gmail.com"`|
 |ContactWith| *string* <br/> max length = 80 <br/> address owner's full name.<br/>`"Randolph Sun"`|
-|Phone| *string* <br/> address owner's phone number. <br/> `"(621) 054-6512"` |
+|Phone| *string* <br/> address owner's phone number. <br/> `"(621) 054-6512EXT78954"` |
 |State| *string* <br/> address state.  <br/>  `"CA"` |
 |City| *string* <br/> max length = 45 <br/> address city. <br/> `"Fullerton"` |
 |Address1| *string*<br/> max length = 100 <br/> address line one of the address<br/>      `"The Streams Apt"` |

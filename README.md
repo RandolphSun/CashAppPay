@@ -3,6 +3,7 @@
 ## Order Model
 | Name |  Description|
 |:-----|-----------|
+|Email| *string* <br/> max length = 128 <br/> address owner's full name.<br/>`"Randolph@gmail.com"`|
 |ContactWith| *string* <br/> max length = 80 <br/> address owner's full name.<br/>`"Randolph Sun"`|
 |Phone| *string* <br/> address owner's phone number. <br/> `"(621) 054-6512"` |
 |State| *string* <br/> address state.  <br/>  `"CA"` |

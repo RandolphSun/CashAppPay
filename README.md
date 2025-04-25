@@ -1,5 +1,71 @@
 # CashAppPay
 
+## step1. get pay url
+```
+POST https://xxx/PartnerCheckout/Dev/Auth
+Accept: application/json
+Content-Type: application/json
+
+{
+	"AppID": "xxx",
+	"AppSecret": "xxx",
+	"Email": "Randolph.Y.Sun@newegg.com",
+	"Payload": "SO_987846",
+	"Amount": 231.17,
+	"Items": [
+		{
+			"ItemNumber": "57-JMT-051",
+			"Quantity": 1
+		}
+	],
+	"Address": {
+		"Address1": "The Streams Apt",
+		"Address2": "1301 Deerpark Dr Apt 29",
+		"ZipCode": "90601",
+		"State": "CA",
+		"City": "Fullerton",
+		"Country": "USA",
+		"Phone": "6263475618",
+		"ContactWith": "Randolph Sun"
+	}
+}
+```
+**Response**
+```
+{
+  "Url": "https://xxxx",
+  "Result": "Success",
+  "MessageEntitys": null
+}
+```
+### step2.  return newegg page. (step1.Response.Url)
+
+### step3. newegg return to partner site.
+
+     https://your-company.com/checkout?payid=SDybs2xqnO2gtDC3K049t7HN
+
+### step4. verify pay result
+
+```
+POST https://XXX/PartnerCheckout/Dev/Return
+Accept: application/json
+Content-Type: application/json
+
+{
+	"PayID": "SDybs2xqnO2gtDC3K049t7HN"
+}
+```
+**Response**
+```
+{
+  "Amount": 231.17,
+  "Payload": "SO_987846",
+  "Result": "Success",
+  "MessageEntitys": null
+}
+```
+
+
 ## Order Model
 | Name |  Description|
 |:-----|-----------|

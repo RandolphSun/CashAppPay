@@ -11,10 +11,10 @@ Content-Type: application/json
 	"AppSecret": "xxx",
 	"Email": "Randolph.Y.Sun@newegg.com",
 	"Payload": "SO_987846",
-	"Amount": 231.17,
+	"Amount": 29.9,
 	"Items": [
 		{
-			"ItemNumber": "57-JMT-051",
+			"ItemNumber": "9SIBEGC0001757",
 			"Quantity": 1
 		}
 	],

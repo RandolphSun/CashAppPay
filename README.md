@@ -8,26 +8,15 @@ Content-Type: application/json
 
 {
 	"AppID": "xxx",
-	"AppSecret": "xxx",
-	"Email": "Randolph.Y.Sun@newegg.com",
+	"AppSecret": "xxx",	
 	"Payload": "SO_987846",
-	"Amount": 29.9,
+	"Amount": 9.99,
 	"Items": [
 		{
-			"ItemNumber": "9SIBEGC0001757",
+			"ItemNumber": "9SIBEGC0001759",
 			"Quantity": 1
 		}
-	],
-	"Address": {
-		"Address1": "The Streams Apt",
-		"Address2": "1301 Deerpark Dr Apt 29",
-		"ZipCode": "90601",
-		"State": "CA",
-		"City": "Fullerton",
-		"Country": "USA",
-		"Phone": "6263475618",
-		"ContactWith": "Randolph Sun"
-	}
+	]	
 }
 ```
 **Response**

@@ -53,7 +53,14 @@ Content-Type: application/json
   "MessageEntitys": null
 }
 ```
-
+**ErrorCode**
+| Code | Desc |
+|:-----|-----------|
+|InvalidApp|AppID或者AppSecret错误|
+|InvalidItem|Item信息错误|
+|InvalidAmount|传入的item和金额不匹配|
+|InvalidPayToken|传入的PayToken不正确|
+|UnSuccess|PayToken过期|
 
 ## Test Item
 | ItemNumber | Amount |

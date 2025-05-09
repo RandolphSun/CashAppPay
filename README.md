@@ -47,7 +47,6 @@ Content-Type: application/json
 **Response**
 ```
 {
-  "Amount": 231.17,
   "Payload": "SO_987846",
   "Result": "Success",
   "MessageEntitys": null

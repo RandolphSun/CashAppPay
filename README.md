@@ -50,7 +50,13 @@ Content-Type: application/json
   "Payload": "SO_987846",
   "PayID":"NeweggSO_XXXXXX",
   "Result": "Success",
-  "MessageEntitys": null
+  "MessageEntitys": [
+    {
+      "MessageCode": "InvalidPayToken",
+      "Description": "Invalid PayToken!",
+      "MessageDatas": null
+    }
+  ]
 }
 ```
 **ErrorCode**

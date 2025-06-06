@@ -10,6 +10,7 @@ Content-Type: application/json
 	"AppID": "xxx",
 	"AppSecret": "xxx",	
 	"Payload": "SO_987846",
+	"ReferSONumber":"XCHL_SO_00001",
 	"Amount": 9.99,
 	"Items": [
 		{
